@@ -11,9 +11,7 @@ import com.zhucheng.database.exception.SQLCloseException;
 
 /**
  * 操作管理类
- * 
- * @author apple
- *
+ * @author 贾志鑫
  */
 public class ZCQuery extends AbstractQueryRunner {
 	

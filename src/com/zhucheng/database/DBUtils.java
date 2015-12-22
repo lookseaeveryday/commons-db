@@ -9,7 +9,7 @@ import com.zhucheng.database.exception.SQLCloseException;
 
 /**
  * 数据管理类
- * @author apple
+ * @author 贾志鑫
  *
  */
 public final class DBUtils {
@@ -21,20 +21,6 @@ public final class DBUtils {
 		// do nothing
 	}
 	
-	/**
-	 * Connection method
-	 * @throws SQLException 
-	 */
-//	public static Connection getConn(String url,String user, String password) throws SQLException {
-//		if(url == null && user == null && password  == null) {
-//			throw new SQLConnectionException();
-//		} else {
-//			Connection conn;
-//			conn = DriverManager.getConnection(url, user, password);
-//			return conn;
-//		}
-//	}
-
 	/**
 	 * 关闭Connection
 	 * 
